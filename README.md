@@ -4,9 +4,9 @@
 </header>
 
 <span>
-  Site de Delivery usando API do Whatsapp
+  Site de Delivery usando API do Whatsapp <br>
 </span>
-<br>
+
 <p>
   Para criar esse site, usei apenas HTML e CSS puro, fazendo algumas estilizações para deixar o site Hamônico <br>
   e para fazer algumas simples interações com o usuário.
