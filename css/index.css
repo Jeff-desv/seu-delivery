@@ -1,0 +1,212 @@
+/*=Fonts Externas=*/
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.one{
+    width: 100%;
+    height: 4px;
+    background: #f2e41b;
+}
+
+.logo{
+    width: 150px;
+}
+
+.header{
+    width: 100%;
+    background: #da3737;
+    padding: 25px;
+}
+
+/*==Menu NAV==*/
+.topo{
+    text-align: right;
+}
+.topo ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.topo ul li a{
+    font-family: "Oswald";
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.topo ul li a:hover{
+    color: #f2e41b;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    height: 380px;
+    background: url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.banner h1{
+    font-family: "Oswald";
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 110px;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: 50px;
+}
+/*BUTTON*/
+.banner a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 25px 20px;
+    width: 50px;
+    color: #FFF;
+    background: #da3737;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 2px;
+}
+.banner a:hover{
+    background: #f2e41b;
+    color: black;
+    transition: all 0.6s;
+    box-shadow: black 2px 2px 2px;
+}
+/*COMBOS*/
+.petiscos h2{
+    margin-top: 75px;
+    font-family: "Oswald";
+    font-size: 45px;
+    text-align: center;
+    color: #da3737;
+    text-transform: uppercase;
+}
+.petiscos p{
+    font-family: "Lato";
+    font-size: 24px;
+    color: #f2e41b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.combo{margin-top: 75px;}
+.combo li{
+    font-family: "Oswald";
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+/*Animação nas IMGS*/
+.combo img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: .5s ease;
+}
+.combo img:hover{
+    transform: scale(1.1);
+}
+/*Fim da Animação*/
+.combo h3{
+    background: #da3737;
+    color: #FFF;
+    font-weight: bold;
+}
+.combo p{
+    font-family: "Oswald";
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: black;
+    text-transform: initial;
+    text-align: center;
+}
+/*BUTTON*/
+.combo h4 a{
+    background-color: green;
+    padding: 10px;
+    color: #FFF;
+    font-family: "Lato";
+    line-height: 65px;
+}
+.combo h4 a:hover{
+    background-color: red;
+    color: #FFF;
+    transition: 0.4s all;
+}
+/*==SLIDE==*/
+.slide{margin-top: 20px;}
+.slide h3{
+    margin-top: 75px;
+    margin-bottom: 70px;
+    font-family: "Oswald";
+    font-size: 30px;
+    text-align: center;
+    color: #da3737;
+    text-transform: uppercase;
+}
+.itens{
+    display: flex;
+    overflow-x: auto;
+}
+.itens img{
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+.slide{
+    flex: none;
+}
+/*Botão fazer Pedido*/
+.btn{
+    margin: 25px 20px;
+    text-align: center;
+}
+.pedido-btn{
+    background: green; 
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;
+}
+.pedido-btn:hover{
+    background: #f2e41b;
+    color: black;
+    transition: 0.3s ease-out;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background: #da3737;
+}
+.footer h3{
+    font-family: "Lato";
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+/*ScrollBar*/
+::-webkit-scrollbar
+::-webkit-scrollbar-thumb
+::-webkit-scrollbar-track{
+    background: #da3737;
+}
+::-webkit-scrollbar{
+    width: 4px;
+    background: #da3737;
+}
+::-webkit-scrollbar-thumb{
+    background: #f2e41b;
+}
